@@ -50,14 +50,18 @@
 
     <div id="wrap" class="margin-top">
             <div id="main">
-                <h1>HTML elementi</h1>
+                <h1 class="text-center">HTML elementi</h1>
                 <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                  </p>
                  <p>
                 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).   
                  </p>
-                 <p>Šodien iemācījāmies par HTML tagiem<br>
-                    Mēs jau esam paspējuši apskatīt tādus HTML elementus,kā:<br>
+                 <p class="text-center">Šodien iemācījāmies par HTML tagiem<br>
+                 </p>
+                 <div class="row">
+                     <div class="col-xs-2"></div>
+                     <div class="col-xs-4">
+                     Mēs jau esam paspējuši apskatīt tādus HTML elementus,kā:<br>
                     <ul>
                         <li>Konteiners"< div>"</li>
                         <li>Virsraksts"< h1>, ....< h6>"</li>
@@ -65,6 +69,8 @@
                         <li>Atribūts"< a>"</li>
                         <li>Rindas atdalītājs"< br>"</li>
                     </ul>
+                    </div>
+                    <div class="col-xs-4">
                     Tagad apskatītim vēl šos elementus:
                     <ol>
                             <li>Nenumurēts saraksts"< ul>"</li>
@@ -76,7 +82,10 @@
                             <button>Uzspied</button>
                             <li><b>Treknraksts</b>"< b>"</li>
                      </ol>
-                     Vairāk informācijas par visiem HTML elementiem mēs varam artast 
+                    </div>
+                    <div class="col-xs-2"></div>
+                     </div>
+                     <p class="text-center">Vairāk informācijas par visiem HTML elementiem mēs varam artast 
                      <a href="https://www.w3schools.com/html/default.asp" target="_blank">W3SCOOLS</a> mājaslapā.
                      </p>
                        <center>
@@ -95,25 +104,31 @@
                                     <td width="10%"></td>
                                     <td colspan="2"width="90%">
                                            <center> <img src="../images\Start(IT)Logo.png" alt="Start(IT)"></center><br>
-                                        <h1>Start(it) apmācību plāns 1.dienai
+                                        <h1 class="text-center">Start(it) apmācību plāns 1.dienai
                                             </h1>
-                                        Parādīsim tabulā informāciju par to, kāds ir bijis šodienas grafiks.<br> 
-                                        Veidosim tabulu, lai iepacītos ar to, kā mēs varam izveidot tabulu. 
-                                        <p>Galvenie punkti, kas tiek šodien apskatīti:
-                                            <ul>
-                                             <li>Projekta izstrādes metodoloģijas </li>   
-                                             <li>GIT </li>  
-                                             <li>VSCode </li>  
-                                             <li>Plānošanas rīki </li>  
-                                             <li>Pusdienas </li>  
-                                             <li>HTML teorija </li>  
-                                             <li>HTML uzdevumi </li>  
-                                             <li>Refleksija </li>  
-                                             <li>Lektors no IT jomas </li>  
-                                            </ul></p>
-                                        <center>
-                                            <table width="70%">
-                                                <tr>
+                                            <p class="text-center"> Parādīsim tabulā informāciju par to, kāds ir bijis šodienas grafiks.<br> 
+                                        Veidosim tabulu, lai iepacītos ar to, kā mēs varam izveidot tabulu. </p>
+                                        <p class="text-center">Galvenie punkti, kas tiek šodien apskatīti:</p>
+                                        <div class="container row">
+                                        <div class="col-xs-2 col-sm-4 col-md-5"> </div>  
+                                        <div class="col-xs-4">
+                                            <ul class="text-center">
+                                             <li  class="list-group-item list-group-item-action list-group-item-primary">Projekta izstrādes metodoloģijas </li>   
+                                             <li class="list-group-item list-group-item-action list-group-item-secondary">GIT </li>  
+                                             <li class="list-group-item list-group-item-action list-group-item-success">VSCode </li>  
+                                             <li class="list-group-item list-group-item-action list-group-item-danger">Plānošanas rīki </li>  
+                                             <li class="list-group-item list-group-item-action list-group-item-warning">Pusdienas </li>  
+                                             <li class="list-group-item list-group-item-action list-group-item-info">HTML teorija </li>  
+                                             <li class="list-group-item list-group-item-action list-group-item-light">HTML uzdevumi </li>  
+                                             <li class="list-group-item list-group-item-action list-group-item-dark">Refleksija </li>  
+                                             <li class="list-group-item list-group-item-action list-group-item-danger">Lektors no IT jomas </li>  
+                                            </ul>
+                                        </div>
+                                        <div class="col-xs-2 col-sm-4"> </div>
+                                        </div>
+                                        <div class="col-xs-1 col-sm-2 col-md-3"> </div> 
+                                            <table class="table table-striped">
+                                                <tr class="head">
                                                     <td>1</td>
                                                     <td>1</td>
                                                     <td>1</td>
@@ -173,7 +188,7 @@
                                                                                         <td>1</td>
                                                                                         <td>1</td>
                                                                                     </tr>
-                                                </table></center>
+                                                </table>
                                            Atsauksme
                                            <form >
                                                 <p>Jūsu vārds:
