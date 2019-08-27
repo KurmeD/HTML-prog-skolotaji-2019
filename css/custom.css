@@ -103,7 +103,7 @@ html{
 .copyrights{
     margin-top:25px;
 }
-.oddListItem{
+.oddListIltem{
     color: orangered;}
 #CssSelectorList li:nth-chils(even){
     font-weight: 900;
