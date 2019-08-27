@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="lv-LV">
+
+<head>
+    <title>Start(it) Kurme</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="../css/custom.css" media="screen" title="no title" charset="utf-8">
+    <link rel="icon" href="../images\Start(IT)SmallLogo.png">
+
+</head>
+
+<body>
+    <!-- Fixed navbar -->
+  
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../index.html"><img src="../images\Start(IT)Logo.png" alt="Start(IT)"></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="../index.html">Sākums<span class="sr-only">(current)</span></a></li>
+                    <li class="dropdown active">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Pirmā diena
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../views/Git.html">GIT</a></li>
+                            <li><a href="../views/VSCode.html">VSCode</a></li>
+                            <li><a href="../views/Agile/Scrum.html">Agile/Scrum</a></li>
+                            <li ><a href="../views/HtmlTags.html">HTML tags</a></li>
+                            <li class="active"><a href="../views/CssSelektori.html">CSS Selektori</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../views/PlainJavaScript.html">Plain JavaScript</a></li>
+                    <li><a href="../views/JavaScriptDom.html">JavaScript + DOM</a></li>
+                    <li><a href="../views/MacibuMetodologija.html">Mācību Metodoloģija</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+
+    <div id="wrap" class="margin-top">
+            <div id="main">
+                <h1>Šie ir daži svarīgie Selektori</h1>
+                <ul>
+                    <li> .class	.intro	Selects all elements with class="intro" </li>
+                    <li>  .class1.class2	< div class="name1 name2">...< /div>	Selects all elements with both name1 and name2 set within its class attribute</li>
+                    <li> .class1 .class2	< div class="name1">
+                            < div class="name2">
+                              ...
+                            < /div>
+                          < /div>	Selects all elements with name2 that is a descendant of an element with name1 </li>
+                    <li>#id	#firstname	Selects the element with id="firstname"  </li>
+                    <li>*	*	Selects all elements  </li>
+                    <li>element	p	Selects all < p> elements</li>
+                    <li>element,element	div, p	Selects all < div> elements and all < p> elements  </li>
+                    <li>element element	div p	Selects all < p> elements inside < div> elements  </li>
+                    <li>element>element	div > p	Selects all < p> elements where the parent is a < div> element  </li>
+                    <li>element+element	div + p	Selects all < p> elements that are placed immediately after < div> elements  </li>
+                    <li>element1~element2	p ~ ul	Selects every < ul> element that are preceded by a < p> element  </li>
+                    <li>:first-child	p:first-child	Selects every < p> element that is the first child of its parent  </li>
+                    <li> :nth-child(n)	p:nth-child(2)	Selects every < p> element that is the second child of its parent </li>
+                    <li> :hover	a:hover	Selects links on mouse over </li>
+                </ul>
+<p>Ir vēl daudz un dažādi CSS selektori. Tos var apskatīt <a href="https://www.w3schools.com/cssref/css_selectors.asp">spiežot šeit</a></p>
+<p>Ja ir vēlme patestēt un paskatīties, kuri elementi  tiek izvēlēti uz kuru CSS selektosu, tad <a href="https://www.w3schools.com/cssref/css_selectors.asp">spiediet šeit</a></p>
+            </div>
+    </div>
+</body>
+
+<footer class="mastfoot mt-auto container-fluid text-center bg-lightgray">
+    <div class="copyrights">
+        <p>Start(IT) © 2019
+            <br>
+            <span>Izstrādātājs: Komanda 6</span>
+            <br>
+            <span>Īpašnieks: Start(IT)</span>
+            <br>
+            <span>VEF Kultūras pils</span>
+        </p>
+    </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="../javaScript/bootstrap.min.js"></script>
+<script type="text/javascript" src="../javaScript/custom.js"></script>
+
+</html>
