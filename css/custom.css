@@ -103,3 +103,11 @@ html{
 .copyrights{
     margin-top:25px;
 }
+.oddListItem{
+    color: orangered;}
+#CssSelectorList li:nth-chils(even){
+    font-weight: 900;
+}
+.hoverClass:Hover{
+    background-color: royalblue;
+}
