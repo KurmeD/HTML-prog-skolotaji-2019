@@ -51,25 +51,25 @@
     <div id="wrap" class="margin-top">
             <div id="main">
                 <h1>Šie ir daži svarīgie Selektori</h1>
-                <ul>
-                    <li> .class	.intro	Selects all elements with class="intro" </li>
+                <ul id="CssSelectorList">
+                    <li class="oddListIltem"> .class	.intro	Selects all elements with class="intro" </li>
                     <li>  .class1.class2	< div class="name1 name2">...< /div>	Selects all elements with both name1 and name2 set within its class attribute</li>
-                    <li> .class1 .class2	< div class="name1">
+                    <li class="oddListIltem"> .class1 .class2	< div class="name1">
                             < div class="name2">
                               ...
                             < /div>
                           < /div>	Selects all elements with name2 that is a descendant of an element with name1 </li>
                     <li>#id	#firstname	Selects the element with id="firstname"  </li>
-                    <li>*	*	Selects all elements  </li>
+                    <li class="oddListIltem">*	*	Selects all elements  </li>
                     <li>element	p	Selects all < p> elements</li>
-                    <li>element,element	div, p	Selects all < div> elements and all < p> elements  </li>
+                    <li class="oddListIltem">element,element	div, p	Selects all < div> elements and all < p> elements  </li>
                     <li>element element	div p	Selects all < p> elements inside < div> elements  </li>
-                    <li>element>element	div > p	Selects all < p> elements where the parent is a < div> element  </li>
+                    <li class="oddListIltem">element>element	div > p	Selects all < p> elements where the parent is a < div> element  </li>
                     <li>element+element	div + p	Selects all < p> elements that are placed immediately after < div> elements  </li>
-                    <li>element1~element2	p ~ ul	Selects every < ul> element that are preceded by a < p> element  </li>
+                    <li class="oddListIltem">element1~element2	p ~ ul	Selects every < ul> element that are preceded by a < p> element  </li>
                     <li>:first-child	p:first-child	Selects every < p> element that is the first child of its parent  </li>
-                    <li> :nth-child(n)	p:nth-child(2)	Selects every < p> element that is the second child of its parent </li>
-                    <li> :hover	a:hover	Selects links on mouse over </li>
+                    <li class="oddListIltem"> :nth-child(n)	p:nth-child(2)	Selects every < p> element that is the second child of its parent </li>
+                    <li class="hoverClass"> :hover	a:hover	Selects links on mouse over </li>
                 </ul>
 <p>Ir vēl daudz un dažādi CSS selektori. Tos var apskatīt <a href="https://www.w3schools.com/cssref/css_selectors.asp">spiežot šeit</a></p>
 <p>Ja ir vēlme patestēt un paskatīties, kuri elementi  tiek izvēlēti uz kuru CSS selektosu, tad <a href="https://www.w3schools.com/cssref/css_selectors.asp">spiediet šeit</a></p>
